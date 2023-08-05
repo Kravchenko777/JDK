@@ -1,12 +1,11 @@
 package org.lessons.lesson6.seminar;
 
-import org.apache.commons.math3.util.CombinatoricsUtils;
 import org.apache.commons.math3.util.ArithmeticUtils;
 public class UtilExample {
 
     public static void main(String[] args) {
         //Факториал
-        System.out.println(CombinatoricsUtils.factorial(10));
+        System.out.println(ArithmeticUtils.factorial(10));
         //Сумма
         System.out.println(ArithmeticUtils.addAndCheck(10,200));
         //Наибольший общий делитель
